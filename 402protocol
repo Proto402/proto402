@@ -1,0 +1,21 @@
+402protocol/
+├── packages/
+│   └── sdk/
+│       ├── src/
+│       │   ├── index.ts
+│       │   ├── create402.ts
+│       │   ├── middleware.ts
+│       │   ├── types.ts
+│       │   ├── usage.ts
+│       │   └── solana.ts
+│       └── package.json
+│
+├── examples/
+│   └── express/
+│       ├── server.ts
+│       └── package.json
+│
+├── README.md
+├── LICENSE
+├── tsconfig.json
+└── package.json
