@@ -1,16 +1,25 @@
-## Hi there 👋
+# 402Protocol
 
-<!--
-**Proto402/proto402** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Real-time micropayments enforced at the HTTP layer.
 
-Here are some ideas to get you started:
+402Protocol is a Solana-powered micropayment engine that enables
+usage-based monetization using `HTTP 402 Payment Required`.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+No subscriptions. No accounts. Pay only for what you use.
+
+---
+
+## Features
+
+- Real-time micropayments
+- Per-second usage metering
+- Native Solana settlement
+- Automatic HTTP 402 enforcement
+- Developer-first API
+
+---
+
+## Installation
+
+```bash
+npm install @402protocol/sdk
