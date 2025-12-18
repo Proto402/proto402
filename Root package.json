@@ -1,0 +1,5 @@
+{
+  "name": "402protocol",
+  "private": true,
+  "workspaces": ["packages/*", "examples/*"]
+}
