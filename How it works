@@ -1,0 +1,4 @@
+Client requests a protected resource
+Server responds with HTTP 402 if unpaid
+Client submits on-chain payment
+Access is granted deterministically
