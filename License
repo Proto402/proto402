@@ -1,0 +1,23 @@
+
+---
+
+# 📦 packages/sdk/src/types.ts
+
+```ts
+export type RateUnit = "second" | "request";
+
+export interface RateConfig {
+  unit: RateUnit;
+  price: number; // SOL
+}
+
+export interface Create402Config {
+  receiver: string;
+  rate: RateConfig;
+  network?: "devnet" | "mainnet-beta";
+}
+
+export interface UsageRecord {
+  wallet: string;
+  consumed: number;
+}
