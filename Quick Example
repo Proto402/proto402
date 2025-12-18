@@ -1,0 +1,20 @@
+import express from "express";
+import { create402, requirePayment } from "@402protocol/sdk";
+
+const fourZeroTwo = create402({
+  receiver: "YOUR_SOLANA_ADDRESS",
+  rate: {
+    unit: "second",
+    price: 0.00001
+  }
+});
+
+const app = express();
+
+app.get(
+  "/protected",
+  requirePayment(fourZeroTwo),
+  (_, res) => res.send("Access granted")
+);
+
+app.listen(3000);
